@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>David Sok</title>
   <meta charset="utf-8">
-    </head>
+  <meta name="author"content="David Sok">
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+  <title>David Sok</title>
+   
     
   <style>
     body {
@@ -74,23 +76,31 @@
   </style>
 
 </head>
-
-  
 <body>
-  
+    .items {
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 640px;
+    flex-grow:1;
+  }
+
+  .banner {
+    display: flex;
+    justify-content: center;
+  }
+  <div class="items">
     <div class="banner">
+    </div>
+    
+ .banner-image{
+    width: 128 px;
+    height:128px;
+    object-fit: cover;
+    border-radius: 128px;
+  }
   <img src="profile-pic.jpg.jpg"alt="David Sok's headshot" class="banner-image">
-      .banner-image{
-      width: 128 px;
-      height:128px;
-      object-fit: cover;
-      border-radius: 128px;
-    }
-    .thumbnail {
-      width: 48px;
-      height: 48px;
-      border-radius: 48px;
-      object-fit:cover;
+      
       
   </div>
 
